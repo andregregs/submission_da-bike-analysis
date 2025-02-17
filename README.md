@@ -39,7 +39,6 @@ Setelah dijalankan, Streamlit akan tersedia di:
 ## 🌍 Akses Online
 Jika ingin mengakses dashboard tanpa menjalankannya di lokal, silakan kunjungi:
 🔗 [da-bike-analysis.streamlit.app](https://da-bike-analysis.streamlit.app/) 🎉
-
-Preview ![Task 1](https://raw.githubusercontent.com/andregregs/submission_da-bike-analysis/main/streamlit.png)
+![Task 1](https://raw.githubusercontent.com/andregregs/submission_da-bike-analysis/main/streamlit.png)
 ---
 
