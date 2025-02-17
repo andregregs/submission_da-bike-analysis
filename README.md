@@ -1,30 +1,44 @@
 # Bike Sharing Data Analysis
 
+Analisis data peminjaman sepeda menggunakan berbagai teknik visualisasi dan eksplorasi data untuk mendapatkan wawasan yang lebih mendalam.
 
-## Tech Use
+## 📌 Library atau Dependensi yang Digunakan
+- **matplotlib** – Visualisasi data berbasis grafik.
+- **numpy** – Operasi numerik dan komputasi array.
+- **pandas** – Manipulasi dan analisis data.
+- **seaborn** – Visualisasi data berbasis statistik.
+- **streamlit** – Pembuatan dashboard interaktif.
+
+---
+## 🚀 Cara Menjalankan Aplikasi
+
+Ikuti langkah-langkah berikut untuk menjalankan **Streamlit Dashboard** di komputer lokal Anda:
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/andregregs/submission_da-bike-analysis.git
 ```
-- matplotlib
-- numpy
-- pandas
-- seaborn
-- streamlit
+
+### 2️⃣ Install Dependensi
+Pastikan Anda memiliki **Python** terinstal, lalu jalankan perintah berikut:
+```bash
+pip install -r requirements.txt
 ```
 
-## Getting Started
+### 3️⃣ Jalankan Streamlit
+```bash
+cd dashboard
+streamlit run dashboard.py
+```
 
-To run the **Streamlit** on your local computer, follow these steps :
+### 4️⃣ Akses Dashboard
+Setelah dijalankan, Streamlit akan tersedia di:
+📍 **http://localhost:8501/**
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/andregregs/submission_da-bike-analysis.git
-   ```
-2. Install the required dependencies/Library
-    ```bash
-     pip install -r requirements.txt
-     ```
-3. Start the streamlit
-    ```bash
-     cd dashboard
-     streamlit run dashboard.py
-     ```
-4. The Streamlit will be running on http://localhost:8501/
+---
+## 🌍 Akses Online
+Jika ingin mengakses dashboard tanpa menjalankannya di lokal, silakan kunjungi:
+🔗 [da-bike-analysis.streamlit.app](https://da-bike-analysis.streamlit.app/) 🎉
+
+---
+
