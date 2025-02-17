@@ -68,7 +68,7 @@ max_date_hourly_data = hourly_data["date"].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("../bike.jpg")
+    st.image("bike.jpg")
     
         # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
