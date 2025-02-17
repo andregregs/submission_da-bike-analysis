@@ -1,7 +1,7 @@
 # Bike Sharing Data Analysis
 
 
-## Tech We Use
+## Dependencies / Package / Library
 ```
 - matplotlib
 - numpy
