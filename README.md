@@ -2,12 +2,13 @@
 
 
 ## Tech We Use
-
+```
 - matplotlib
 - numpy
 - pandas
 - seaborn
 - streamlit
+```
 
 ## Getting Started
 
@@ -15,7 +16,7 @@ To run the **Streamlit** on your local computer, follow these steps :
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/Kopra-Lapak/Koplak-API-ML.git
+   git clone https://github.com/andregregs/submission_da-bike-analysis.git
    ```
 2. Install the required dependencies
     ```bash
