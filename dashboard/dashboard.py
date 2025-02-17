@@ -41,8 +41,8 @@ def another_season (daily_data):
     seasonal_rentals = daily_data.groupby(by="season").cnt.sum().reset_index() 
     return seasonal_rentals
 
-file_path_daily = './cleaned_day_data.csv'
-file_path_hourly = './cleaned_hour_data.csv'
+file_path_daily = "dashboard/cleaned_day_data.csv"
+file_path_hourly = "dashboard/cleaned_hour_data.csv"
 
 
 daily_data = pd.read_csv(file_path_daily)
