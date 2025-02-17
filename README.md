@@ -1,7 +1,7 @@
 # Bike Sharing Data Analysis
 
 
-## Dependencies / Package / Library
+## Tech Use
 ```
 - matplotlib
 - numpy
@@ -18,7 +18,7 @@ To run the **Streamlit** on your local computer, follow these steps :
    ```bash
    git clone https://github.com/andregregs/submission_da-bike-analysis.git
    ```
-2. Install the required dependencies
+2. Install the required dependencies/Library
     ```bash
      pip install -r requirements.txt
      ```
