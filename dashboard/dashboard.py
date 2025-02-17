@@ -41,8 +41,9 @@ def another_season (daily_data):
     seasonal_rentals = daily_data.groupby(by="season").cnt.sum().reset_index() 
     return seasonal_rentals
 
-file_path_daily = '.streamlit/cleaned_day_data.csv'
-file_path_hourly = '.streamlit/cleaned_day_data.csv'
+file_path_daily = "dashboard/cleaned_day_data.csv"
+file_path_hourly = "dashboard/cleaned_hour_data.csv"
+
 
 daily_data = pd.read_csv(file_path_daily)
 hourly_data = pd.read_csv(file_path_hourly)
@@ -67,7 +68,7 @@ max_date_hourly_data = hourly_data["date"].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("../bike.jpg")
+    st.image("bike.jpg")
     
         # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
